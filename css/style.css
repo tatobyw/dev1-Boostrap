@@ -1,0 +1,44 @@
+
+.container, .container-fluid{
+    font-family: 'Sarabun', sans-serif;
+}
+
+#carouselExampleCaptions{
+    font-family: 'Sarabun', sans-serif;
+}
+
+.section{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.main-heading{
+    color: #1d3557;
+    font-size: 25px;
+}
+
+.underline{
+    height: 4px;
+    width: 10rem;
+    background-color: #414141;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bg-c-light{
+    background-color: #f2f2f2;
+}
+
+.footer{
+    font-family: 'Sarabun', sans-serif;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: grey;
+}

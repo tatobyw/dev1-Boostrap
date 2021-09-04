@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap" rel="stylesheet">
+    <title>Dev1-bootstrap</title>
+</head>
+
+<body>
+    <!-- 1.Start NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark" >
+        <div class="container">
+
+            <a class="navbar-brand" href="../index.html">นายบรรยวัสถ์</a>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- End Button -->
+
+            <!-- Navbar Link -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/about.html">เกี่ยวกับ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/profile.html">ประวัติเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/gallery.html">ภาพความทรงจำ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contact.html">ติดต่อเรา</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://trattc.ac.th/">วท.ตราด</a></li>
+                            <li><a class="dropdown-item" href="https://www.vec.go.th/">อาชีวศึกษา</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.moe.go.th/">กระทรวง ศึกษาธิการ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="section border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-4">
+                    <h3 class="main-heading">บริการชุมชน</h3>
+                    <div class="underline mx-auto"></div>
+                </div>
+
+                <div class="col-md-12 mb-3 ">
+                    <div class="card shadow" style="background-color: #f3f3f3;">
+                        <img src="../images/service1.jpg" alt="service1" class="src w-50 mx-auto border-bottom" />
+                        <div class="card-body">
+                            <h4>Web Hosting</h4>
+                            <div class="underline"></div>
+                            <p>บริการ Web Hosting ด้วยทีมงานมืออาชีพพร้อมให้บริการตลอด 24 ชั่วโมง ใน Data Center ระดับ Tier 4 
+                                พร้อมด้วยมาตรฐาน ISO20000, ISO27001 และ ISO9001 ถ้าคุณกำลังมองหาเว็บโฮสติ้งดีๆ อยู่ ก็ที่นี่แหละ 
+                                รับประกันความพึงพอใจยินดีคืนเงินเต็มจำนวนโดยไม่ต้องแจ้งเหตุผล</p>
+                            <a href="../pages/service.html" class="btn shadow mb-3 text-white" style="background-color: #494949;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <div class="card shadow"style="background-color: #f3f3f3;">
+                        <img src="../images/service2.jpg" alt="service1" class="src w-50 mx-auto border-bottom" />
+                        <div class="card-body">
+                            <h4>Cloud Server</h4>
+                            <div class="underline"></div>
+                            <p>บริการ Cloud Server สำหรับ Web หรือ Application ที่ต้องการประสิทธิภาพ และความเสถียรภาพสูงสุด 
+                                อิสระในการใช้งาน สามารถเลือกและติดตั้ง OS ได้เอง รองรับการใช้งานที่หลากหลายไม่ว่าจะเป็น 
+                                Web Server, Mail Server, App Server, Database Server</p>
+                            <a href="../pages/service.html" class="btn shadow mb-3 text-white" style="background-color: #494949;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <div class="card shadow" style="background-color: #f3f3f3;">
+                        <img src="../images/service3.jpg" alt="service1" class="src w-50 mx-auto border-bottom" />
+                        <div class="card-body">
+                            <h4>Domain Registration</h4>
+                            <div class="underline"></div>
+                            <p>เราให้คุณจัดการทุกอย่างได้เองผ่าน Control Panel มีระบบป้องกันการจารกรรมโดเมน พร้อมบริการให้คุณตลอด 24 ชม. 
+                                ไม่มีวันหยุด โดเมนที่จดทะเบียนกับเราเป็นของคุณ 100% ไม่มีการถือครองแทนโดยผู้ให้บริการแบบที่อื่น</p>
+                            <a href="../pages/service.html" class="btn shadow mb-3 text-white" style="background-color: #494949;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- 6.Start Section Footer -->
+    <section class="section footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <h3>Company Information</h3>
+                    <hr />
+                    <ul type="square">
+                        <li>วิทยาลัยเทคนิคตราด</li>
+                        <li>480 หมู่ 9 ถนนสุขุมวิท ต.วังกระแจะ อ.เมือง จ.ตราด</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Quick Link</h3>
+                    <hr />
+                    <ul type="square">
+                        <li><div><a href="../index.html">Home</a></div></li>
+                        <li><div><a href="../pages/about.html">About</a></div></li>
+                        <li><div><a href="../pages/profile.html">Profile</a></div></li>
+                        <li><div><a href="../pages/contact.html">Contact</a></div></li>
+                        <li><div><a href="../pages/gallery.html">Gallery</a></div></li>
+                        <li><div><a href="../pages/service.html">Service</a></div></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Contact Information</h3>
+                    <hr />
+                    <ul type="square">
+                        <li><div><p class="text-white mb-1">480 หมู่ 9 ถนนสุขุมวิท ต.วังกระแจะ อ.เมือง จ.ตราด 23000</p></div></li>
+                        <li><div><p class="text-white mb-1">trat.ac.th@gmail.com</p></div></li>
+                        <li><div><p class="text-white mb-1">039-518-105</p></div></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Section Footer -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
